@@ -3,7 +3,7 @@ import "./App.css";
 
 // You need to run this command
 // REACT_APP_OPENWEATHERMAP_API_KEY=2c15e16ab21e2ac37c7a627756f01940 npm start
-const API_KEY = process.env.REACT_APP_OPENWEATHERMAP_API_KEY;
+const API_KEY = '2c15e16ab21e2ac37c7a627756f01940';
 export default function Weather() {
   const [city, setCity] = useState("");
   const [data, setData] = useState();
